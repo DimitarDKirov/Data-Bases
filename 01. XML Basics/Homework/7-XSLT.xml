@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="7-XSLT.xslt"?>
+  <students>
+    <student>
+      <name>Mitko</name>
+      <sex>Male</sex>
+      <birthDate>27-01-1980</birthDate>
+      <phone>087654321</phone>
+      <email>mitko@gmail.com</email>
+      <course>IV</course>
+      <specialty>Computer Engineering</specialty>
+      <facultyNumber>998888</facultyNumber>
+      <exams>
+        <exam>
+          <name>Data Bases</name>
+          <tutor>Mr. Rachev</tutor>
+          <score>5.5</score>
+        </exam>
+        <exam>
+          <name>Microprocessors Engineering</name>
+          <tutor>Mr. Dimitar Penchev</tutor>
+          <score>4.32</score>
+        </exam>
+      </exams>
+    </student>
+    <student>
+      <name>Mariq</name>
+      <sex>Female</sex>
+      <birthDate>18-12-1995</birthDate>
+      <phone>029988775</phone>
+      <email>mariq@abv.bg</email>
+      <course>II</course>
+      <specialty>Comunication Engineering</specialty>
+      <facultyNumber>060201</facultyNumber>
+      <exams>
+        <exam>
+          <name>Electrical Engineering</name>
+          <tutor>Ms. Elena Racheva</tutor>
+          <score>4.75</score>
+        </exam>
+        <exam>
+          <name>Physics</name>
+          <tutor>Mr. Georgiev</tutor>
+          <score>4</score>
+        </exam>
+      </exams>
+    </student>
+  </students>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://telerikacademy.com">
+    <xs:element name="students">
+    	<xs:complexType>
+    		<xs:sequence>
+    			<xs:element ref="student"  maxOccurs="unbounded"></xs:element>
+    		</xs:sequence>
+    	</xs:complexType>
+    </xs:element>
+    <xs:element name="student">
+    	<xs:complexType>
+    		<xs:sequence>
+    			<xs:element ref="name"></xs:element>
+    			<xs:element ref="sex"></xs:element>
+    			<xs:element ref="birthDate"></xs:element>
+    			<xs:element ref="phone"></xs:element>
+    			<xs:element ref="email"></xs:element>
+    			<xs:element ref="course"></xs:element>
+    			<xs:element ref="specialty"></xs:element>
+    			<xs:element ref="facultyNumber"></xs:element>
+    			<xs:element ref="exams"></xs:element>
+    		</xs:sequence>
+    	</xs:complexType>
+    </xs:element>
+    <xs:element name="exams"
+
