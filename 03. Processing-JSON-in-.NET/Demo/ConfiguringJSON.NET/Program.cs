@@ -14,7 +14,8 @@ namespace ConfiguringJSON.NET
         {
             var place = Place.GetTestPlace();
 
-            JsonConvert.SerializeObject(place, Formatting.Indented);
+            var jsonPlace=JsonConvert.SerializeObject(place, Formatting.Indented);
+            Console.WriteLine(jsonPlace);
 
 
             var json = 

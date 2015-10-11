@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2Artists", "HomeworkXML.NET\2Artists.csproj", "{3B79358F-0302-49DB-B215-C207F5C8715D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30398989-CAC1-4159-AC4E-F2F6CC67B472}"
+	ProjectSection(SolutionItems) = preProject
+		catalog.xml = catalog.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3ArtistsXPath", "3ArtistsXPath\3ArtistsXPath.csproj", "{A969BBD9-0D6B-40B2-8F3D-6E53E7A7BC63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4DeletePriceOver20", "4DeletePriceOver20\4DeletePriceOver20.csproj", "{C4458C89-987F-4268-95CF-62E944FCBDCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5XmlReaderSongs", "5XmlReaderSongs\5XmlReaderSongs.csproj", "{A6C3E81D-0122-4D99-9F8D-541BA885D5C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6SongsLINQ", "6SongsLINQ\6SongsLINQ.csproj", "{54800F46-BD97-412C-A55D-753ABF386DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7AddressFile", "7AddressFile\7AddressFile.csproj", "{64BC3EA1-C587-405A-85F6-98C8EE782EA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B79358F-0302-49DB-B215-C207F5C8715D}.Debug|x86.ActiveCfg = Debug|x86
+		{3B79358F-0302-49DB-B215-C207F5C8715D}.Debug|x86.Build.0 = Debug|x86
+		{3B79358F-0302-49DB-B215-C207F5C8715D}.Release|x86.ActiveCfg = Release|x86
+		{3B79358F-0302-49DB-B215-C207F5C8715D}.Release|x86.Build.0 = Release|x86
+		{A969BBD9-0D6B-40B2-8F3D-6E53E7A7BC63}.Debug|x86.ActiveCfg = Debug|x86
+		{A969BBD9-0D6B-40B2-8F3D-6E53E7A7BC63}.Debug|x86.Build.0 = Debug|x86
+		{A969BBD9-0D6B-40B2-8F3D-6E53E7A7BC63}.Release|x86.ActiveCfg = Release|x86
+		{A969BBD9-0D6B-40B2-8F3D-6E53E7A7BC63}.Release|x86.Build.0 = Release|x86
+		{C4458C89-987F-4268-95CF-62E944FCBDCF}.Debug|x86.ActiveCfg = Debug|x86
+		{C4458C89-987F-4268-95CF-62E944FCBDCF}.Debug|x86.Build.0 = Debug|x86
+		{C4458C89-987F-4268-95CF-62E944FCBDCF}.Release|x86.ActiveCfg = Release|x86
+		{C4458C89-987F-4268-95CF-62E944FCBDCF}.Release|x86.Build.0 = Release|x86
+		{A6C3E81D-0122-4D99-9F8D-541BA885D5C5}.Debug|x86.ActiveCfg = Debug|x86
+		{A6C3E81D-0122-4D99-9F8D-541BA885D5C5}.Debug|x86.Build.0 = Debug|x86
+		{A6C3E81D-0122-4D99-9F8D-541BA885D5C5}.Release|x86.ActiveCfg = Release|x86
+		{A6C3E81D-0122-4D99-9F8D-541BA885D5C5}.Release|x86.Build.0 = Release|x86
+		{54800F46-BD97-412C-A55D-753ABF386DF1}.Debug|x86.ActiveCfg = Debug|x86
+		{54800F46-BD97-412C-A55D-753ABF386DF1}.Debug|x86.Build.0 = Debug|x86
+		{54800F46-BD97-412C-A55D-753ABF386DF1}.Release|x86.ActiveCfg = Release|x86
+		{54800F46-BD97-412C-A55D-753ABF386DF1}.Release|x86.Build.0 = Release|x86
+		{64BC3EA1-C587-405A-85F6-98C8EE782EA6}.Debug|x86.ActiveCfg = Debug|x86
+		{64BC3EA1-C587-405A-85F6-98C8EE782EA6}.Debug|x86.Build.0 = Debug|x86
+		{64BC3EA1-C587-405A-85F6-98C8EE782EA6}.Release|x86.ActiveCfg = Release|x86
+		{64BC3EA1-C587-405A-85F6-98C8EE782EA6}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
