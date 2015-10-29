@@ -11,7 +11,7 @@ class CommandAndDataReader
         using (dbCon)
         {
             SqlCommand cmdCount = new SqlCommand(
-                "SELECT COUNT(*) FROM Employees", dbCon);
+                "SELECT COUNT(*) FROM Employees");
             int employeesCount = (int)cmdCount.ExecuteScalar();
             Console.WriteLine("Employees count: {0} ", employeesCount);
             Console.WriteLine();

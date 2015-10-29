@@ -39,7 +39,7 @@ class SqlInjectionDemo
 		// a vulnerablity to SQL injection (unescaped username)!
 		string sql =
 			"SELECT COUNT(*) FROM Users " +
-			"WHERE UserName = '" + username + "' and " +
+			"WHERE UserName = '" + EscapeSQLString(username) + "' and " +
 			"PasswordHash = '" + CalcSHA1(password) + "'";
 		Console.WriteLine("Executing SQL command: " + sql);
 		SqlCommand cmd = new SqlCommand(sql, dbConnection);
@@ -57,7 +57,7 @@ class SqlInjectionDemo
 	static void Main()
     {
 		SqlConnection dbConnection = new SqlConnection(
-            "Server=.//SQLEXPRESS; Database=TelerikAcademy; Integrated Security=true");
+            "Server=.\\SQLEXPRESS; Database=TelerikAcademy; Integrated Security=true");
 		dbConnection.Open();
 		using (dbConnection)
 		{

@@ -19,7 +19,7 @@ class Program
 
             while (reader.Read())
             {
-                Console.WriteLine(reader[0]);
+                Console.WriteLine("{0} {1}", reader[0], reader[1]);
             }
         }
 

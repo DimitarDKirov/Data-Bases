@@ -87,6 +87,7 @@ END
 SELECT COUNT(*) AS AuthorsCount FROM Authors
 SELECT COUNT(*) AS MessagesCount FROM Messages
 
+--here
 ----------------------------------------------------------------------
 -- Filter by indexed column (primary key has built-in clustered index)
 ----------------------------------------------------------------------
@@ -121,6 +122,7 @@ CHECKPOINT; DBCC DROPCLEANBUFFERS; -- Empty the SQL Server cache
 SELECT * FROM Messages
 WHERE MsgDate > '31-Dec-2013' and MsgDate < '1-Jan-2015'
 
+--here
 ---------------------------------------------------------------------
 -- Join by non-indexed column
 ---------------------------------------------------------------------
